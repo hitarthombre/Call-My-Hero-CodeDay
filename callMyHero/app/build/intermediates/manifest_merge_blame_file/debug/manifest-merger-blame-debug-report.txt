@@ -1,0 +1,120 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.callmyhero"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\f5896e6a027ba92fdc7c623f875e955f\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.callmyhero.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\f5896e6a027ba92fdc7c623f875e955f\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\f5896e6a027ba92fdc7c623f875e955f\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.callmyhero.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\f5896e6a027ba92fdc7c623f875e955f\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\f5896e6a027ba92fdc7c623f875e955f\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:6:5-43:19
+18        android:allowBackup="true"
+18-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:7:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\f5896e6a027ba92fdc7c623f875e955f\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:8:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:9:9-54
+23        android:icon="@mipmap/ic_launcher"
+23-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:10:9-43
+24        android:label="@string/app_name"
+24-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:11:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:12:9-54
+26        android:supportsRtl="true"
+26-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:13:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.CallMyHero" >
+28-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:14:9-48
+29        <activity
+29-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:16:9-18:40
+30            android:name="com.example.callmyhero.test"
+30-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:17:13-33
+31            android:exported="false" />
+31-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:18:13-37
+32        <activity
+32-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:19:9-21:40
+33            android:name="com.example.callmyhero.fight"
+33-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:20:13-34
+34            android:exported="false" />
+34-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:21:13-37
+35        <activity
+35-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:22:9-24:40
+36            android:name="com.example.callmyhero.robbery"
+36-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:23:13-36
+37            android:exported="false" />
+37-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:24:13-37
+38        <activity
+38-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:25:9-27:40
+39            android:name="com.example.callmyhero.terrorism"
+39-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:26:13-38
+40            android:exported="false" />
+40-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:27:13-37
+41        <activity
+41-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:28:9-30:40
+42            android:name="com.example.callmyhero.disaster"
+42-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:29:13-37
+43            android:exported="false" />
+43-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:30:13-37
+44        <!-- <activity -->
+45        <!-- android:name=".DbManager" -->
+46        <!-- android:exported="false" /> -->
+47        <activity
+47-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:34:9-42:20
+48            android:name="com.example.callmyhero.MainActivity"
+48-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:35:13-41
+49            android:exported="true" >
+49-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:36:13-36
+50            <intent-filter>
+50-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:37:13-41:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:38:17-69
+51-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:38:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:40:17-77
+53-->D:\Coding\hackathon\callMyHero\app\src\main\AndroidManifest.xml:40:27-74
+54            </intent-filter>
+55        </activity>
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+59            android:authorities="com.example.callmyhero.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\7cfe2704946b18bb678666b3953b74c4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\7cfe2704946b18bb678666b3953b74c4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\7cfe2704946b18bb678666b3953b74c4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+67        </provider>
+68    </application>
+69
+70</manifest>

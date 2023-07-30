@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "306173497173",
+    "project_id": "call-my-hero",
+    "storage_bucket": "call-my-hero.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306173497173:android:1144061fc59be7d339a9dc",
+        "android_client_info": {
+          "package_name": "com.example.call_my_hero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306173497173-pumph99tbbtd4hji0qsq40jpoj802meq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlHLJ2wmDXdVqyIHBiRP68Dowrssk7N3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306173497173-pumph99tbbtd4hji0qsq40jpoj802meq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
