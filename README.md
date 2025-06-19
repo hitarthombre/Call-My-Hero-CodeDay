@@ -41,13 +41,3 @@ Call My Hero consists of two mobile applications:
 | Backend (assumed)| Firebase Realtime DB or Firestore |
 
 ---
-
-## 🛠️ Installation
-
-### Civilian App (Flutter)
-
-```bash
-git clone https://github.com/yourusername/Call My Hero-civilian.git
-cd Call My Hero-civilian
-flutter pub get
-flutter run
